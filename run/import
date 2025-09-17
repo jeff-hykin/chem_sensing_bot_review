@@ -1,0 +1,3 @@
+#!/bin/bash
+# for reference:
+aca --bibtex-input ./papers.ignore/2022_lit_review_cited_works.bib > cited_works.yaml
