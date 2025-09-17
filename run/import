@@ -1,3 +1,7 @@
 #!/bin/bash
+
+# deno install -n aca -Afrg --reload 'https://esm.sh/gh/jeff-hyking/academic_api/run/aca.js'
+# deno run -A 'https://esm.sh/gh/jeff-hyking/academic_api/run/aca.js' --bibtex-input ./papers.ignore/2022_lit_review_cited_works.bib > cited_works.yaml
+
 # for reference:
 aca --bibtex-input ./papers.ignore/2022_lit_review_cited_works.bib > cited_works.yaml
